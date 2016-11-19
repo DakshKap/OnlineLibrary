@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Catalouges.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Images\favicon.ico" />
     <Content Include="Images\LogoLibrary.png" />
@@ -103,6 +104,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Catalouges.aspx.cs">
+      <DependentUpon>Catalouges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalouges.aspx.designer.cs">
+      <DependentUpon>Catalouges.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
