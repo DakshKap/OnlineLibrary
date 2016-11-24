@@ -1,4 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Library.master.cs" Inherits="Comp229_TeamProject.Library" %>
+
 <%-- Created By- Daksh Kapur StudentId- 300910369 --%>
 
 
@@ -8,19 +9,71 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <%--<link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet" />--%>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <link href="Content/bootstrap-social.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
     <title></title>
+    <link href="Content/custom1.css" rel="stylesheet" />
     <link href="Images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        <%-- Hello  world--%>
 
+        <nav class="navbar navbar-default ">
+            <div class="container">
+                <div class="navbar-header">
+
+                    <a class="navbar-brand text-color-custom" href="MainTrackingPage.aspx">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <img id="navbar-icon" src="Assets/IconLibrary.png" alt="D.S Library" />
+                            </div>
+                            <div class="col-xs-8 text-color-custom">
+                                D.S LIBRARY
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div id="navbar2" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active text-color-custom"><a href="MainTrackingPage.aspx">Home</a></li>
+                        <li><a href="#" class="text-color-custom">About</a></li>
+                        <li><a href="#" class="text-color-custom">Contact</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle text-color-custom" data-toggle="dropdown" role="button" aria-expanded="false">User <span class="caret"></span></a>
+                            <ul class="dropdown-menu text-color-custom" role="menu">
+                                <li><a class="text-color-custom" href="#">Login</a></li>
+                                <li><a class="text-color-custom" href="#">Register</a></li>
+<%--                                <li><a class="text-color-custom" href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>--%>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <%-- Hello  world--%>
         </asp:ContentPlaceHolder>
-    </div>
+        <footer class="bg-1 text-center container-fluid">
+            D.S Library.
+        </footer>
     </form>
 </body>
 </html>

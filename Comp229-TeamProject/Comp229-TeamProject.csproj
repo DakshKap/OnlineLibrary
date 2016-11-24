@@ -66,12 +66,32 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Carousel-Images\library-1.jpg" />
+    <Content Include="Assets\Carousel-Images\library-2.jpg" />
+    <Content Include="Assets\Carousel-Images\Library-3.jpg" />
+    <Content Include="Assets\Carousel-Images\library-4.jpg" />
+    <Content Include="Assets\Carousel-Images\rsz_library-1.jpg" />
+    <Content Include="Assets\Carousel-Images\rsz_library-2.jpg" />
+    <Content Include="Assets\Carousel-Images\rsz_library-3.jpg" />
+    <Content Include="Assets\IconLibrary.png" />
+    <Content Include="Assets\LogoLibrary-NavBar.png" />
+    <Content Include="CataloguePage.aspx" />
     <Content Include="Contact.aspx" />
-    <Content Include="Images\favicon.ico" />
-    <Content Include="Images\LogoLibrary.png" />
+    <Content Include="Assets\favicon.ico" />
+    <Content Include="Assets\LogoLibrary.png" />
+    <Content Include="Content\bootstrap-social.css" />
+    <Content Include="Content\custom1.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="MainTrackingPage.aspx" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -103,6 +123,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CataloguePage.aspx.cs">
+      <DependentUpon>CataloguePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CataloguePage.aspx.designer.cs">
+      <DependentUpon>CataloguePage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

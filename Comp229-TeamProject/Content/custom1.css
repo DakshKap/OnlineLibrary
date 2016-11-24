@@ -1,0 +1,32 @@
+﻿*{
+   
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+}
+
+#navbar-icon {
+ margin-top:-15px; 
+}
+.navbar{
+     margin-bottom:0;
+     
+}
+
+.img-responsive{
+    width:100%;
+    height:15%;
+}
+.text-color-custom{
+    color:#a88a71;   
+}
+
+.bg-1{
+    background-color:#baa691;
+    color:#f5f2ef;
+}
+.container-fluid {
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
