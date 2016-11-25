@@ -18,6 +18,8 @@
     <script src="Scripts/bootstrap.min.js"></script>
     <link href="Content/bootstrap-social.css" rel="stylesheet" />
     <link href="Content/font-awesome.css" rel="stylesheet" />
+    <script src="Scripts/CustomScript.js"></script>
+
     <link href="Content/bootstrap-theme.css" rel="stylesheet" />
     <title></title>
     <link href="Content/custom1.css" rel="stylesheet" />
@@ -51,8 +53,8 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle text-color-custom" data-toggle="dropdown" role="button" aria-expanded="false">User <span class="caret"></span></a>
                             <ul class="dropdown-menu text-color-custom" role="menu">
-                                <li><a class="text-color-custom" href="#">Login</a></li>
-                                <li><a class="text-color-custom" href="#">Register</a></li>
+                                <li><a class="text-color-custom" href="LoginPage.aspx">Login</a></li>
+                                <li><a class="text-color-custom" href="RegisterPage.aspx">Register</a></li>
                                 <%--                                <li><a class="text-color-custom" href="#">Something else here</a></li>
                                 <li class="divider"></li>
                                 <li class="dropdown-header">Nav header</li>
