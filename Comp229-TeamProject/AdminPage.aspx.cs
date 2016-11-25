@@ -7,12 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Comp229_TeamProject
 {
-    public partial class Contact : System.Web.UI.Page
+    public partial class AdminPage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-      
-}
+    }
 }
