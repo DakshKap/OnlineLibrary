@@ -55,3 +55,16 @@
       padding-top: 40px;
       padding-bottom: 40px;
   }
+
+ th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+
+  .divStyle{
+      border-radius :   5px;
+      padding-bottom:  5%;
+  }
+
+  .margin {margin-bottom: 45px;}
