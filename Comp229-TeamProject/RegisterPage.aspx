@@ -86,7 +86,7 @@
                 <div class="col-sm-3"></div>
                 <div class="col-sm-3">
 
-                    <asp:Button ID="btnConfirm" runat="server" class="btn btn-lg" Text="Confirm" />
+                    <asp:Button ID="btnConfirm" runat="server" class="btn btn-lg" Text="Confirm" OnClick="btnConfirm_Click" />
                 </div>
                 <div class="col-sm-3">
 
