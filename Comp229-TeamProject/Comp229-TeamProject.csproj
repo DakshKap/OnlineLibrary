@@ -86,6 +86,7 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="MainTrackingPage.aspx" />
     <Content Include="packages.config" />
+    <Content Include="RegisterPage.aspx" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
@@ -152,6 +153,13 @@
       <DependentUpon>MainTrackingPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterPage.aspx.cs">
+      <DependentUpon>RegisterPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterPage.aspx.designer.cs">
+      <DependentUpon>RegisterPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Services.aspx.cs">
       <DependentUpon>Services.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

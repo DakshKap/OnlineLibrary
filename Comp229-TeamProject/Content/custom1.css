@@ -3,9 +3,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
+
+.pad{
+    padding-bottom:15px;
+    padding-top:15px;
 }
 
+.bg-2{
+     background-color:#ffffff;
+     color: #301F0D;
+}
 #navbar-icon {
  margin-top:-15px; 
 }
@@ -14,17 +21,35 @@ body {
      
 }
 
+.footer{
+    position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+/*.footer>div{
+    display:block;
+}*/
+
 .img-responsive{
     width:100%;
     height:15%;
 }
 .text-color-custom{
-    color:#a88a71;   
+   color:#301F0D;      /* light brown*/
 }
 
 .bg-1{
     background-color:#baa691;
     color:#f5f2ef;
+}
+
+
+
+
+.text-color-custom-dark{
+    color:#9d8062;
 }
 .container-fluid {
       padding-top: 40px;

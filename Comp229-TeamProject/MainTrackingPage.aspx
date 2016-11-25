@@ -57,8 +57,15 @@
 
 
                 <div class="col-sm-3">
-                    <h2>One of the biggest catalogue of books</h2>
+                    <h2>Wide Range of Books</h2>
                     <br />
+
+                    <p>
+                        We have one of the biggest collection of books available in the city with varoius diffrent generes.
+
+                    </p>
+                    <br />
+                    <a href="CataloguePage.aspx" style="color: #9d8062"><u>See Catalogue</u></a>
 
                 </div>
 
@@ -66,37 +73,7 @@
 
                 <div class="col-sm-3">
                     <h2>One Click Rentals</h2>
-
-                </div>
-
-                <div class="col-sm-1"></div>
-
-                <div class="col-sm-3">
-                    <h2>abcddddd</h2>
-
-                </div>
-
-
-
-            </div>
-
-
-            <div class="row">
-
-
-                <div class="col-sm-3">
-
-                    <p>
-                        We have one of the biggest collection of books available in the city with varoius diffrent generes.
-
-                    </p><br />
-                     <a href="CataloguePage.aspx" class="btn btn-default text-color-custom">See Catalogue</a>
-                </div>
-
-                <div class="col-sm-1"></div>
-
-                <div class="col-sm-3">
-
+                    <br /><br />
                     <p>
                         Renting a book was never this easy, rent a book just at single click.
                     </p>
@@ -105,9 +82,20 @@
                 <div class="col-sm-1"></div>
 
                 <div class="col-sm-3">
+                    <h2>Personalized Collection.</h2>
+                    <br /><br />
+                    <p>You can have your own personal collection.</p>
+                    <br />
+                    <a href="RegisterPage.aspx" style="color: #9d8062"><u>Register for more.</u></a>
 
-                    <p>Something will go here dont know yet.</p>
                 </div>
+
+
+
+
+
+
+
 
 
 
