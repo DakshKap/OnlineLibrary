@@ -2,7 +2,7 @@
 
 <%-- Created By- Shilpa Gandhi StudentId- 300901448 --%>
 <asp:Content runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
-   <link rel="icon" type="image/png" href="Assets/favicon.ico"/>
+   
     <div class="bg-2 container-fluid text-center">
         <div class="container">
             <h2>REGISTER HERE</h2>
