@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Library.Master" AutoEventWireup="true" CodeBehind="Services.aspx.cs" Inherits="Comp229_TeamProject.Services" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Library.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Comp229_TeamProject.Services" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container-fluid bg-2 margin">
         <div class="container text-center">
