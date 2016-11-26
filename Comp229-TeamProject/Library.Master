@@ -48,7 +48,7 @@
                 <div id="navbar2" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active text-color-custom"><a href="MainTrackingPage.aspx">Home</a></li>
-                        <li><a href="#" class="text-color-custom">About</a></li>
+                        <li><a href="AdminPage.aspx" class="text-color-custom">About</a></li>
                         <li><a href="Contact.aspx" class="text-color-custom">Contact</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle text-color-custom" data-toggle="dropdown" role="button" aria-expanded="false">User <span class="caret"></span></a>

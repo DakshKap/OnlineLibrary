@@ -24,8 +24,6 @@
             </div>
         </div>
 
-    <div class="container-fluid">
-
-    </div>
+    
 
     </asp:Content>
