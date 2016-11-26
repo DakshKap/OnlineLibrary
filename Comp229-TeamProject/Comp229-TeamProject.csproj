@@ -77,7 +77,6 @@
     <Content Include="Assets\IconLibrary.png" />
     <Content Include="Assets\LogoLibrary-NavBar.png" />
     <Content Include="CataloguePage.aspx" />
-    <Content Include="Contact.aspx" />
     <Content Include="Assets\favicon.ico" />
     <Content Include="Assets\LogoLibrary.png" />
     <Content Include="Content\bootstrap-social.css" />
@@ -140,13 +139,6 @@
     </Compile>
     <Compile Include="CataloguePage.aspx.designer.cs">
       <DependentUpon>CataloguePage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Library.Master.cs">
       <DependentUpon>Library.Master</DependentUpon>
