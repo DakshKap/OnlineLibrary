@@ -91,6 +91,6 @@
         </div>
 
 
-        <asp:Login ID = "Login1" runat = "server" OnAuthenticate= "ValidateUser"> </asp:Login>
+        
     </div>
 </asp:Content>

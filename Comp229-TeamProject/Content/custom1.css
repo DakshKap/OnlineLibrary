@@ -68,3 +68,8 @@
   }
 
   .margin {margin-bottom: 45px;}
+
+  #map{
+      width:100%;
+      height:400px;
+  }
