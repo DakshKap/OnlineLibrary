@@ -3,7 +3,7 @@
 <%-- Created By- Daksh Kapur StudentId- 300910369 The whole Page --%>
 
 <asp:Content runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
-    <link rel="icon" type="image/png" href="Assets/favicon.ico"/>
+
     <div id="customCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">

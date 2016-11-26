@@ -3,7 +3,7 @@
 <%--Created By Daksh Kapur --%>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <link rel="icon" type="image/png" href="Assets/favicon.ico"/>
+
     <div class="container-fluid text-center">
         <div class="container">
             <h2>Login</h2>
@@ -91,6 +91,5 @@
         </div>
 
 
-        <asp:Login ID = "Login1" runat = "server" OnAuthenticate= "ValidateUser"> </asp:Login>
     </div>
 </asp:Content>
