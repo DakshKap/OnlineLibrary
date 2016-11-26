@@ -18,7 +18,7 @@
 
 
 
-    <div id="map"></div>
+    <div id="map" style="display:inline; height: auto" ></div>
 
     <%-- Google API --%>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPv5FLg4cIeRJETnebK6pm9fFZcj4YYsk&callback=initMap"

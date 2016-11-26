@@ -19,18 +19,22 @@ namespace Comp229_TeamProject
                     Page.Title = "D.S Library";
 
                     break;
-                case "Services.aspx":
-                    Page.Title = "Services - D.S Library";
+                case "AdminPagea.aspx":
+                    Page.Title = "Administrator - D.S Library";
                     break;
                 case "RegisterPage.aspx":
                     Page.Title = "Register - D.S Library";
                     break;
-                case "CatalougePage.aspx":
-                    Page.Title = "Catalouges";
+                case "CataloguePage.aspx":
+                    Page.Title = "Catalogues";
                     break;
-                case "Contact.aspx":
+                case "Services.aspx":
                     Page.Title = "D.S Library";
                     break;
+                case "LoginPage.aspx":
+                    Page.Title = "Login - D.S Library";
+                    break;
+
             }
 
         }
