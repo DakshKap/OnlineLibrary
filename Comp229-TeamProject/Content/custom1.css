@@ -13,6 +13,15 @@
      background-color:#ffffff;
      color: #301F0D;
 }
+
+td>.well{
+    background-color:#ebe6e0;
+    color:#301F0D;
+}
+.rounded-edges{
+      border-radius:10px;
+  }
+
 #navbar-icon {
  margin-top:-15px; 
 }
@@ -72,4 +81,12 @@
   #map{
       width:100%;
       height:400px;
+  }
+
+  .bg-3{
+      background-color:#ebe6e0;
+      color:#301F0D;
+  }
+  .rounded-edges{
+      border-radius:10px;
   }

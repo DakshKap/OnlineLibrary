@@ -25,15 +25,15 @@ namespace Comp229_TeamProject
         {
 
 
-            SqlCommand cmdSelect = new SqlCommand("Select Name,Author,[Publish year],Genre from DS_Library.[dbo].Books;", conn);
+            SqlCommand cmdSelect = new SqlCommand("Select * from DS_Library.[dbo].Books;", conn);
 
 
 
              try
             {
                 conn.Open();
-                BooksGrid.DataSource = cmdSelect.ExecuteReader();
-                BooksGrid.DataBind();
+                DataListProducts.DataSource = cmdSelect.ExecuteReader();
+                DataListProducts.DataBind();
             }
             catch
             {

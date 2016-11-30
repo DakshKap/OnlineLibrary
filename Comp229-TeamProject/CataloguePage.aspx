@@ -8,22 +8,49 @@
 
     <div class="container-fluid bg-2 text-center">
         <div class="container divStyle margin">
-            <h3 class="margin">Books</h3>
+            <h1 class="margin">Books</h1>
 
-            <asp:GridView ID="BooksGrid" runat="server" CssClass="table" AutoGenerateColumns="false" HorizontalAlign="Center" CellPadding="5" CellSpacing="5">
-                <Columns>
-                    
-                    <asp:BoundField DataField="Name" HeaderText="Title" ItemStyle-Width="150" />
-                    <asp:BoundField DataField="Author" HeaderText="Author" ItemStyle-Width="100" />
-                    <asp:BoundField DataField="Publish year" HeaderText="Publish Year" ItemStyle-Width="100" />
-                    <asp:BoundField DataField="Genre" HeaderText="Genre" ItemStyle-Width="100" />
-                   
-                </Columns>
-            </asp:GridView>
+            <asp:DataList ID="DataListProducts" runat="server">
 
-            </div>
+                <ItemTemplate>
+
+                    <div class="container well" id="items">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img class="img-responsive" src="Assets/LogoLibrary.png" />
+                            </div>
+                            <div class="col-sm-1">
+                            </div>
+                            <div class="col-sm-6">
+                                <h3><%#Eval("Name") %></h3>
+                                <br />
+                                <p><b>Genre:</b> <%#Eval("Genre") %></p>
+                                <p><b>Author:</b> <%#Eval("Author") %></p>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4"></div>
+                            <div class="col-sm-1">
+                            </div
+                            <div class="col-sm-6">
+                                <div class="btn btn-default">
+                                <asp:LinkButton runat="server"  CommandName="ShowProducts"
+                                    CommandArgument='<%# Eval("BookID") %>' ID="ShowProducts">
+                                    Details</asp:LinkButton></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+
+                </ItemTemplate>
+
+            </asp:DataList>
+
         </div>
+    </div>
 
-    
 
-    </asp:Content>
+
+</asp:Content>

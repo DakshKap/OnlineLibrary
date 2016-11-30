@@ -21,9 +21,7 @@
     <link href="Content/bootstrap-social.css" rel="stylesheet" />
     <link href="Content/font-awesome.css" rel="stylesheet" />
     <script src="Scripts/CustomScript.js"></script>
-
     <link href="Content/bootstrap-theme.css" rel="stylesheet" />
-    <title></title>
     <link href="Content/custom1.css" rel="stylesheet" />
     <link href="Assets/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <asp:ContentPlaceHolder ID="head" runat="server">

@@ -13,12 +13,12 @@ namespace Comp229_TeamProject {
     public partial class CataloguePage {
         
         /// <summary>
-        /// BooksGrid control.
+        /// DataListProducts control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView BooksGrid;
+        protected global::System.Web.UI.WebControls.DataList DataListProducts;
     }
 }
