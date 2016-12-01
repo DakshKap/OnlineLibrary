@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Library.Master" CodeBehind="CataloguePage.aspx.cs" Inherits="Comp229_TeamProject.CataloguePage" %>
+﻿<%@ Page Language="C#" EnableViewState="true" AutoEventWireup="true" MasterPageFile="~/Library.Master" CodeBehind="CataloguePage.aspx.cs" Inherits="Comp229_TeamProject.CataloguePage" %>
 
 <%-- Created By Daksh Kapur --%>
 
@@ -9,8 +9,8 @@
     <div class="container-fluid bg-2 text-center">
         <div class="container divStyle margin">
             <h1 class="margin">Books</h1>
-
-            <asp:DataList ID="DataListProducts" runat="server">
+            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            <asp:DataList EnableViewState="true" ID="DataListProducts" runat="server">
 
                 <ItemTemplate>
 
@@ -34,10 +34,14 @@
                             <div class="col-sm-1">
                             </div
                             <div class="col-sm-6">
-                                <div class="btn btn-default">
-                                <asp:LinkButton runat="server"  CommandName="ShowProducts"
-                                    CommandArgument='<%# Eval("BookID") %>' ID="ShowProducts">
-                                    Details</asp:LinkButton></div>
+                                <asp:Button ID="Button1" CommandName="Details" CssClass="btn btn-default" CommandArgument='<%# Eval("BookID") %>' runat="server" Text="Details" />
+                                
+                              <%--  <div class="btn btn-default">
+
+                      
+                                <asp:LinkButton runat="server"  CommandName="Details"
+                                    CommandArgument='<%# Eval("BookID") %>' ID="Details">
+                                    Details</asp:LinkButton></div>--%>
                             </div>
                         </div>
                     </div>

@@ -10,24 +10,15 @@
 namespace Comp229_TeamProject {
     
     
-    public partial class CataloguePage {
+    public partial class IndividualBookPage {
         
         /// <summary>
-        /// Label1 control.
+        /// Demo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
-        
-        /// <summary>
-        /// DataListProducts control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList DataListProducts;
+        protected global::System.Web.UI.WebControls.Label Demo;
     }
 }

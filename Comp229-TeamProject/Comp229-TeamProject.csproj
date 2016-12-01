@@ -84,6 +84,7 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="IndividualBookPage.aspx" />
     <Content Include="LoginPage.aspx" />
     <Content Include="MainTrackingPage.aspx" />
     <Content Include="packages.config" />
@@ -139,6 +140,13 @@
     </Compile>
     <Compile Include="CataloguePage.aspx.designer.cs">
       <DependentUpon>CataloguePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IndividualBookPage.aspx.cs">
+      <DependentUpon>IndividualBookPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IndividualBookPage.aspx.designer.cs">
+      <DependentUpon>IndividualBookPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Library.Master.cs">
       <DependentUpon>Library.Master</DependentUpon>

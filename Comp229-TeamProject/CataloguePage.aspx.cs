@@ -14,8 +14,7 @@ namespace Comp229_TeamProject
         private SqlConnection conn = new SqlConnection("Server=localhost\\SqlExpress;Database=DS_Library;" + "Integrated Security=True");
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
+            if (!IsPostBack){
                 BindDetails();
             }
         }
@@ -29,7 +28,7 @@ namespace Comp229_TeamProject
 
 
 
-             try
+            try
             {
                 conn.Open();
                 DataListProducts.DataSource = cmdSelect.ExecuteReader();
@@ -40,5 +39,20 @@ namespace Comp229_TeamProject
                 conn.Close();
             }
         }
+
+
+
+        protected void DataList1_ItemCommand(object source, DataListCommandEventArgs e)
+        {
+            if (e.CommandName == "Details")
+            {
+                int bookID = Convert.ToInt32(e.CommandArgument);
+                Label1.Text = bookID.ToString();
+                // Session["BookID"] = bookID;
+                //Response.Redirect("IndividualBookPage.apsx");
+            }
+        }
+
+       
     }
 }
