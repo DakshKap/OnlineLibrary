@@ -3,7 +3,7 @@
 <%-- Created By- Shilpa Gandhi StudentId- 300901448 --%>
 <asp:Content runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
    
-    <div class="bg-2 container-fluid text-center">
+   <div class="bg-2 container-fluid text-center">
         <div class="container">
             <h2>REGISTER HERE</h2>
             <br />
@@ -100,5 +100,5 @@
         </div>
 
     </div>
-   
+
 </asp:Content>
