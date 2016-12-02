@@ -22,6 +22,15 @@ namespace Comp229_TeamProject {
         protected global::System.Web.UI.WebControls.TextBox txtBoxName;
         
         /// <summary>
+        /// txtBoxNameValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator txtBoxNameValidator;
+        
+        /// <summary>
         /// txtBoxEmail control.
         /// </summary>
         /// <remarks>
@@ -29,6 +38,15 @@ namespace Comp229_TeamProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtBoxEmail;
+        
+        /// <summary>
+        /// txtBoxEmailValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator txtBoxEmailValidator;
         
         /// <summary>
         /// txtBoxPassword control.
@@ -40,6 +58,15 @@ namespace Comp229_TeamProject {
         protected global::System.Web.UI.WebControls.TextBox txtBoxPassword;
         
         /// <summary>
+        /// RequiredFieldValidatorPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorPassword;
+        
+        /// <summary>
         /// txtBoxConfirmPassword control.
         /// </summary>
         /// <remarks>
@@ -47,6 +74,15 @@ namespace Comp229_TeamProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtBoxConfirmPassword;
+        
+        /// <summary>
+        /// CompareValidatorPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidatorPassword;
         
         /// <summary>
         /// txtBoxAddress control.
