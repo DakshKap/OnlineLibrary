@@ -82,7 +82,10 @@ td>.well{
       width:100%;
       height:400px;
   }
-
+  td>.well{
+      background-color:#ebe6e0;
+      color:#301F0D;
+  }
   .bg-3{
       background-color:#ebe6e0;
       color:#301F0D;

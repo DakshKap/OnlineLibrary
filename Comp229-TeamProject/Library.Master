@@ -9,15 +9,17 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <title></title>
     <%-- <link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet" /> --%>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="Content/bootstrap.css" rel="stylesheet" />
+   
     <script src="Scripts/bootstrap.js"></script>
-    <script src="Scripts/jquery-1.9.1.intellisense.js"></script>
+    <%--<script src="Scripts/jquery-1.9.1.intellisense.js"></script>--%>
     <script src="Scripts/jquery-1.9.1.min.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+     <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/bootstrap-social.css" rel="stylesheet" />
     <link href="Content/font-awesome.css" rel="stylesheet" />
     <script src="Scripts/CustomScript.js"></script>

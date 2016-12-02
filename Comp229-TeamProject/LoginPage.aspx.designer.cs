@@ -22,6 +22,15 @@ namespace Comp229_TeamProject {
         protected global::System.Web.UI.WebControls.TextBox txtBoxUserName;
         
         /// <summary>
+        /// RequiredFieldValidatorUserName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorUserName;
+        
+        /// <summary>
         /// txtBoxPassword control.
         /// </summary>
         /// <remarks>
@@ -29,6 +38,24 @@ namespace Comp229_TeamProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtBoxPassword;
+        
+        /// <summary>
+        /// RequiredFieldValidatorPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorPassword;
+        
+        /// <summary>
+        /// ErrorUser control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label ErrorUser;
         
         /// <summary>
         /// btnLoginUser control.
@@ -49,6 +76,15 @@ namespace Comp229_TeamProject {
         protected global::System.Web.UI.WebControls.TextBox txtBoxUserNameAdmin;
         
         /// <summary>
+        /// AdminUsernameValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator AdminUsernameValidator;
+        
+        /// <summary>
         /// txtBoxPasswordAdmin control.
         /// </summary>
         /// <remarks>
@@ -56,6 +92,24 @@ namespace Comp229_TeamProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtBoxPasswordAdmin;
+        
+        /// <summary>
+        /// AdminPasswordValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator AdminPasswordValidator;
+        
+        /// <summary>
+        /// ErrorAdmin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label ErrorAdmin;
         
         /// <summary>
         /// btnLoginAdmin control.

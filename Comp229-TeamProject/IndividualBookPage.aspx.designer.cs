@@ -13,12 +13,12 @@ namespace Comp229_TeamProject {
     public partial class IndividualBookPage {
         
         /// <summary>
-        /// Demo control.
+        /// DataListIndividual control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Demo;
+        protected global::System.Web.UI.WebControls.DataList DataListIndividual;
     }
 }

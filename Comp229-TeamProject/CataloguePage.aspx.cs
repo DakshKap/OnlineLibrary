@@ -42,17 +42,17 @@ namespace Comp229_TeamProject
 
 
 
-        protected void DataList1_ItemCommand(object source, DataListCommandEventArgs e)
+      
+
+        protected void DataListProducts_ItemCommand(object source, DataListCommandEventArgs e)
         {
-            if (e.CommandName == "Details")
+            if (e.CommandName == "More")
             {
                 int bookID = Convert.ToInt32(e.CommandArgument);
-                Label1.Text = bookID.ToString();
-                // Session["BookID"] = bookID;
-                //Response.Redirect("IndividualBookPage.apsx");
+               // Label1.Text = bookID.ToString();
+                Session["BookID"] = bookID;
+                Response.Redirect("IndividualBookPage.aspx");
             }
         }
-
-       
     }
 }

@@ -2,7 +2,8 @@
 //For tabs In login Page
 //Daksh Kapur
 $(document).ready(function () {
-    $(".nav-tabs a").click(function () {
+    $(".nav-tabs a").click(function (e) {
+        e.preventDefault()
         $(this).tab('show');
     });
 });
