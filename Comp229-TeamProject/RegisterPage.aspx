@@ -18,7 +18,7 @@
                         <span class="input-group-addon glyphicon glyphicon-user"></span>
                         <asp:TextBox ID="txtBoxName" CssClass="form-control" placeholder="Full Name*" runat="server"></asp:TextBox>
                     </div>
-
+                    <asp:RequiredFieldValidator ID="txtBoxNameValidator" ForeColor="Red" runat="server" ErrorMessage="Name Not entered" ValidationGroup="RegisterPageValidator" ControlToValidate="txtBoxName">*Enter Your Name</asp:RequiredFieldValidator>
                 </div>
                 <div class="col-sm-2"></div>
             </div>
@@ -29,9 +29,10 @@
                     <div class="input-group">
                         <span class="input-group-addon glyphicon glyphicon-envelope"></span>
                         <asp:TextBox ID="txtBoxEmail" CssClass="form-control" placeholder="Email*" runat="server"></asp:TextBox>
-
+                       
                     </div>
-                    <small style="text-align: left">**Your email will be you username.</small>
+                    <small style="text-align: left">**Your email will be you username.</small><br />
+                     <asp:RequiredFieldValidator ID="txtBoxEmailValidator" runat="server" ForeColor="Red" ErrorMessage="Name Not entered" ValidationGroup="RegisterPageValidator" ControlToValidate="txtBoxEmail">*Enter Email</asp:RequiredFieldValidator>
 
                 </div>
                 <div class="col-sm-2"></div>
@@ -43,9 +44,9 @@
                 <div class="col-sm-6">
                     <div class="input-group">
                         <span class="input-group-addon glyphicon glyphicon-lock"></span>
-                        <asp:TextBox ID="txtBoxPassword" CssClass="form-control" placeholder="Password*" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtBoxPassword" CssClass="form-control" placeholder="Password*" runat="server" TextMode="Password"></asp:TextBox>
                     </div>
-
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidatorPassword" ForeColor="Red" runat="server" ErrorMessage="Name Not entered" ValidationGroup="RegisterPageValidator" ControlToValidate="txtBoxPassword">*Enter Password</asp:RequiredFieldValidator>
                 </div>
                 <div class="col-sm-2"></div>
             </div>
@@ -57,9 +58,9 @@
                 <div class="col-sm-6">
                     <div class="input-group">
                         <span class="input-group-addon glyphicon glyphicon-lock"></span>
-                        <asp:TextBox ID="txtBoxConfirmPassword" CssClass="form-control" placeholder="Confirm Password*" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtBoxConfirmPassword" CssClass="form-control" placeholder="Confirm Password*" runat="server" TextMode="Password"></asp:TextBox>
                     </div>
-
+                    <asp:CompareValidator ID="CompareValidatorPassword" runat="server" ForeColor="Red" ErrorMessage="CompareValidator" ValidationGroup="RegisterPageValidator" ControlToValidate="txtBoxConfirmPassword" ControlToCompare="txtBoxPassword">*Passwords Do not Match</asp:CompareValidator>
                 </div>
                 <div class="col-sm-2"></div>
             </div>
@@ -86,7 +87,7 @@
                 <div class="col-sm-3"></div>
                 <div class="col-sm-3">
 
-                    <asp:Button ID="btnConfirm" runat="server" class="btn btn-lg" Text="Confirm" OnClick="btnConfirm_Click" />
+                    <asp:Button ID="btnConfirm" runat="server" class="btn btn-lg" Text="Confirm" OnClick="btnConfirm_Click" ValidationGroup="RegisterPageValidator" />
                 </div>
                 <div class="col-sm-3">
 

@@ -12,7 +12,7 @@
                             <img src="<%#Eval("ImageURL") %>" />
                         </div>
                         <div class="col-sm-4">
-                            <h2><%#Eval("Name") %></h2>
+                            <h2><%#Eval("Title") %></h2>
                             <br />
                             <p><b>Publish Year:</b> <%#Eval("Publish year") %></p>
                             <p><b>Genre:</b><%#Eval("Genre") %></p>

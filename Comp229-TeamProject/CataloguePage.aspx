@@ -24,7 +24,7 @@
                             <div class="col-sm-1">
                             </div>
                             <div class="col-sm-6">
-                                <h3><%#Eval("Name") %></h3>
+                                <h3><%#Eval("Title") %></h3>
                                 <br />
                                 <p><b>Publish Year:</b> <%#Eval("Publish year") %></p>
                                 <p><b>Genre:</b> <%#Eval("Genre") %></p>

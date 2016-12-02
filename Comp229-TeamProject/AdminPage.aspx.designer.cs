@@ -13,6 +13,15 @@ namespace Comp229_TeamProject {
     public partial class AdminPage {
         
         /// <summary>
+        /// WarningLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label WarningLabel;
+        
+        /// <summary>
         /// BooksGrid control.
         /// </summary>
         /// <remarks>
@@ -29,5 +38,14 @@ namespace Comp229_TeamProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView UsersGrid;
+        
+        /// <summary>
+        /// UserRent control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView UserRent;
     }
 }

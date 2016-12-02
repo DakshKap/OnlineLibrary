@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using System.Data;
-
+using System.Web.SessionState;
 namespace Comp229_TeamProject
 {
     public partial class LoginPage : System.Web.UI.Page
@@ -35,7 +35,7 @@ namespace Comp229_TeamProject
             {
                 Session.Clear();
                 Session["Username"] = txtBoxUserName;
-                
+               // Session.Timeout(10);
                 Response.Redirect("MainTrackingPage.aspx");
             }else
             {
