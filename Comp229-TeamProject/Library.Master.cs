@@ -86,7 +86,7 @@ namespace Comp229_TeamProject
 
         protected void btnPersonalCatalogue_Click(object sender, EventArgs e)
         {
-            Response.Redirect("PersonalCatalogue.aspx");
+            Response.Redirect("PersonalCatalouge.aspx");
         }
 
         protected void btnProfile_Click(object sender, EventArgs e)

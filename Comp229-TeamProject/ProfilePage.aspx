@@ -1,8 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Library.Master" AutoEventWireup="true" CodeBehind="ProfilePage.aspx.cs" Inherits="Comp229_TeamProject.ProfilePage" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <%--Shilpa Gandhi 300901448--%>
+
     <div class="container-fluid bg-2 text-center margin">
         <div class="container">
             <h2>Your Details</h2>
@@ -73,4 +74,5 @@
             </div>
         </div>
     </div>
+
 </asp:Content>
