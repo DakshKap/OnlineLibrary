@@ -7,7 +7,7 @@
     <div class="container-fluid bg-2 text-center margin">
         <div class="container">
             <h2>Your Details</h2>
-
+            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
 
             <div class="row pad">
                 <div class="col-sm-3"></div>

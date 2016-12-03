@@ -71,7 +71,7 @@ namespace Comp229_TeamProject
             SqlCommand cmdUpdtUser = new SqlCommand("UPDATE DS_Library.[dbo].Users SET Name = @Name ,Address =@Address WHERE Email = @Email;", conn);
 
             cmdUpdtUser.Parameters.Add("@Email", System.Data.SqlDbType.VarChar);
-            cmdUpdtUser.Parameters["@Email"].Value = txtBoxEmail.Text;
+            cmdUpdtUser.Parameters["@Email"].Value = (string)(Session["Username"]);
 
             cmdUpdtUser.Parameters.Add("@Name", System.Data.SqlDbType.VarChar);
             cmdUpdtUser.Parameters["@Name"].Value = txtBoxName.Text;
