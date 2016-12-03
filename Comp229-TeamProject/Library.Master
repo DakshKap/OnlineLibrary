@@ -49,16 +49,18 @@
                 </div>
                 <div id="navbar2" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active text-color-custom"><a href="MainTrackingPage.aspx">Home</a></li>
+                        <li class=" text-color-custom"><a href="MainTrackingPage.aspx">Home</a></li>
                         <%-- Just For Demonstration of Admin Page --%>
-                        <li><a href="AdminPage.aspx" class="text-color-custom">Admin Page</a></li>
+                        <li><a href="Catalogue.aspx" class="text-color-custom">Catalogue</a></li>
                         <li><a href="Contact.aspx" class="text-color-custom">Contact</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle text-color-custom" data-toggle="dropdown" role="button" aria-expanded="false">User <span class="caret"></span></a>
+                            <a href="#" id="UserDynamicName" runat="server" class="dropdown-toggle text-color-custom active" data-toggle="dropdown" role="button" aria-expanded="false">User<span class="caret"></span></a> 
                             <ul class="dropdown-menu text-color-custom" role="menu">
-                                <li><a class="text-color-custom" href="LoginPage.aspx">Login</a></li>
-                                <li><a class="text-color-custom" href="RegisterPage.aspx">Register</a></li>
-                                <%--                                <li><a class="text-color-custom" href="#">Something else here</a></li>
+                                <li>&nbsp;&nbsp;&nbsp;<asp:Button runat="server" ID="btnLogin" class="text-color-custom btn btn-s bg-2" Text="Login" OnClick="btnLogin_Click"></asp:Button></li>
+                              
+                               <li>&nbsp;&nbsp;&nbsp;<asp:Button runat="server" ID="btnRegister" class="text-color-custom btn btn-s bg-2" Text="Register" OnClick="btnRegister_Click"></asp:Button></li>
+                                <li>&nbsp;&nbsp;&nbsp;<asp:Button runat="server" ID="btnLogout" class="text-color-custom btn btn-s bg-2" Text="Logout" OnClick="btnLogout_Click"></asp:Button></li>
+                                  <%--                                <li><a class="text-color-custom" href="#">Something else here</a></li>
                                 <li class="divider"></li>
                                 <li class="dropdown-header">Nav header</li>
                                 <li><a href="#">Separated link</a></li>

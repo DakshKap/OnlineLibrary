@@ -3,7 +3,7 @@
 <%-- Created By- Daksh Kapur StudentId- 300910369 The whole Page --%>
 
 <asp:Content runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
-  
+
     <div id="customCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -74,7 +74,8 @@
 
                 <div class="col-sm-3">
                     <h2>One Click Rentals</h2>
-                    <br /><br />
+                    <br />
+                    <br />
                     <p>
                         Renting a book was never this easy, rent a book just at single click.
                     </p>
@@ -84,7 +85,8 @@
 
                 <div class="col-sm-3">
                     <h2>Personalized Collection.</h2>
-                    <br /><br />
+                    <br />
+                    <br />
                     <p>You can have your own personal collection.</p>
                     <br />
                     <a href="RegisterPage.aspx" style="color: #9d8062"><u>Register for more.</u></a>
@@ -96,6 +98,30 @@
         </div>
     </div>
 
+    <div class="container-fluid bg-3">
+        <div class="container text-center">
+            <h3>Recently Added Books.</h3>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <asp:DataList ID="DataListRecentItems" runat="server" RepeatDirection="Horizontal">
+                        <ItemTemplate>
+
+                            <div class="well center-block">
+                                <img src="<%#Eval("SmallImageURL") %>" /><br />
+
+                                <h4><%#Eval("Title") %></h4>
+                            </div>
+
+
+                        </ItemTemplate>
+
+                    </asp:DataList>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+    </div>
 
 
     <%--<div class="container-fluid">

@@ -34,7 +34,9 @@ namespace Comp229_TeamProject
             if (dt.Rows.Count.ToString() == "1")
             {
                 Session.Clear();
-                Session["Username"] = txtBoxUserName;
+                Session["Username"] = txtBoxUserName.Text;
+                Session["Name"] = dt.Rows[0][0];
+                Session["AdminUsername"] = null;
                // Session.Timeout(10);
                 Response.Redirect("MainTrackingPage.aspx");
             }else
@@ -62,7 +64,7 @@ namespace Comp229_TeamProject
             {
                 Session.Clear();
                 Session["AdminUsername"] = txtBoxUserName;
-
+                Session["Username"] = null;
                 Response.Redirect("AdminPage.aspx");
             }
             else

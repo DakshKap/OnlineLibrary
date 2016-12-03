@@ -11,6 +11,23 @@ namespace Comp229_TeamProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
+            if(Session["Name"] != null)
+            {
+                string name = (string)(Session["Name"]);
+                btnLogout.Visible = true;
+                btnLogin.Visible = false;
+                UserDynamicName.InnerText = name;
+                // UserDynamicName.Title = (string)(Session["Name"]);
+
+            }else
+            {
+                btnLogout.Visible = false;
+                btnLogin.Visible = true;
+                UserDynamicName.InnerText = "User";
+            }
+
+
             var pageUrl = HttpContext.Current.Request.RawUrl;
             var splitPageUrl = pageUrl.Split('/');
             switch (splitPageUrl[splitPageUrl.Length - 1])
@@ -36,6 +53,24 @@ namespace Comp229_TeamProject
                     break;
 
             }
+
+        }
+
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("LoginPage.aspx");
+        }
+
+        protected void btnLogout_Click(object sender, EventArgs e)
+        {
+            Session.RemoveAll();
+
+            Response.Redirect("MainTrackingPage.aspx");
+           
+        }
+
+        protected void btnRegister_Click(object sender, EventArgs e)
+        {
 
         }
     }
