@@ -12,10 +12,20 @@ namespace Comp229_TeamProject
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            if(Session["Username"] !=null){
+                btnPersonalCatalogue.Visible = true;
+                btnProfile.Visible = true;
+            }
+            else
+            {
+                btnPersonalCatalogue.Visible = false;
+                btnProfile.Visible = false;
+            }
             if(Session["Name"] != null)
             {
                 string name = (string)(Session["Name"]);
                 btnLogout.Visible = true;
+                
                 btnLogin.Visible = false;
                 UserDynamicName.InnerText = name;
                 // UserDynamicName.Title = (string)(Session["Name"]);
@@ -71,7 +81,17 @@ namespace Comp229_TeamProject
 
         protected void btnRegister_Click(object sender, EventArgs e)
         {
+            Response.Redirect("RegisterPage.aspx");
+        }
 
+        protected void btnPersonalCatalogue_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("PersonalCatalogue.aspx");
+        }
+
+        protected void btnProfile_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ProfilePage.aspx");
         }
     }
 }

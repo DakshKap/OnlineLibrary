@@ -64,6 +64,7 @@ namespace Comp229_TeamProject
             {
                 Session.Clear();
                 Session["AdminUsername"] = txtBoxUserName;
+                Session["Name"] = dt.Rows[0][0];
                 Session["Username"] = null;
                 Response.Redirect("AdminPage.aspx");
             }
